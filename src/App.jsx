@@ -5,9 +5,9 @@ import Mynavbar1 from './component/Navbar1'
 import Myfooter1 from './component/Footer1'
 import Mycontent1 from './component/Content1'
 import Mycarousel1 from './component/Carousel1'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Dog2 from './component/2nd pages/Dog2'
-import Home1 from './component/Home'
+// import { BrowserRouter, Route, Routes } from 'react-router-dom'
+// import Dog2 from './component/2nd pages/Dog2'
+// import Home1 from './component/Home'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,7 +19,7 @@ function App() {
 <Mycarousel1></Mycarousel1>
    <Mycontent1></Mycontent1>
  
-   <Myfooter1></Myfooter1>
+   
 
 
    
@@ -35,6 +35,7 @@ function App() {
    </Routes>
    
    </BrowserRouter> */}
+   <Myfooter1></Myfooter1>
    </>
   )
 }

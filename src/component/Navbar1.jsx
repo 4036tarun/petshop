@@ -1,4 +1,5 @@
-import { Navbar } from "flowbite-react";
+import { Dropdown, Navbar } from "flowbite-react";
+import { DropdownItem } from "flowbite-react/lib/esm/components/Dropdown/DropdownItem";
 import { NavbarBrand } from "flowbite-react/lib/esm/components/Navbar/NavbarBrand";
 import { NavbarCollapse } from "flowbite-react/lib/esm/components/Navbar/NavbarCollapse";
 import { NavbarLink } from "flowbite-react/lib/esm/components/Navbar/NavbarLink";
@@ -31,7 +32,7 @@ export default function Mynavbar1(){
   <NavbarToggle />
   <NavbarCollapse>
     <NavbarLink
-      href="/navbars"
+      href="/home"
       active={true}
     >
       Home
@@ -42,20 +43,31 @@ export default function Mynavbar1(){
     //     render: LinkWithRef
     //   }}
     // to="/navbars"
-      href="/navbars"
+      href="/about"
     >
       About
     </NavbarLink>
-    <NavbarLink href="/navbars">
-      Services
+    <NavbarLink href="/services">
+      {/* Services */}
+      <Dropdown
+  label="Services"
+  inline={true}
+>
+  <DropdownItem>
+    Buying
+  </DropdownItem>
+  <DropdownItem>
+    Selling
+  </DropdownItem>
+</Dropdown>
     </NavbarLink>
-    <NavbarLink href="/navbars">
+    <NavbarLink href="/pricing">
       Pricing
     </NavbarLink>
-    <NavbarLink href="/navbars">
+    <NavbarLink href="/contact">
       Contact
     </NavbarLink>
-    <NavbarLink href="/navbars">
+    <NavbarLink href="/medical-help">
       Medical Help
     </NavbarLink>
   </NavbarCollapse>
