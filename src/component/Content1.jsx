@@ -17,7 +17,7 @@ export default function Mycontent1(){
       DOGS
     </h5>
     <p className="font-normal text-gray-700 dark:text-gray-400">
-      Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
+      The most loyal and friendly animal in existence.
     </p>
   </Card>
 </div></div>
@@ -30,7 +30,7 @@ export default function Mycontent1(){
       CATS
     </h5>
     <p className="font-normal text-gray-700 dark:text-gray-400">
-      Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
+      Adorable and cute , never a dull moment with them.
     </p>
   </Card>
 </div></div>
@@ -43,10 +43,10 @@ export default function Mycontent1(){
       BIRDS
     </h5>
     <p className="font-normal text-gray-700 dark:text-gray-400">
-      Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
+    The presence of a single bird can change everything for one who appreciates them.
     </p>
   </Card>
-</div></div>\
+</div></div>
 <div className="basis-1/4"> <div className="max-w-sm">
   <Card
  
@@ -54,10 +54,10 @@ export default function Mycontent1(){
     imgSrc="https://www.wallpapers13.com/wp-content/uploads/2016/02/Underwater-fish-fishes-goldfish-gold-fish-wallpaper-background-1280x960.jpg"
   >
     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-      Aquatic animals
+      AQUATIC ANIMALS
     </h5>
     <p className="font-normal text-gray-700 dark:text-gray-400">
-      Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
+     Live in their little world and they are the best listener. 
     </p>
   </Card>
 </div></div>
