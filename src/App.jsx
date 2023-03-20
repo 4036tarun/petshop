@@ -6,6 +6,7 @@ import Myfooter1 from './component/Footer1'
 import Mycontent1 from './component/Content1'
 import Mycarousel1 from './component/Carousel1'
 import Comment1 from './component/Comment'
+import Mylogin from './component/Login1'
 // import { BrowserRouter, Route, Routes } from 'react-router-dom'
 // import Dog2 from './component/2nd pages/Dog2'
 // import Home1 from './component/Home'
@@ -36,6 +37,7 @@ function App() {
    </Routes>
    
    </BrowserRouter> */}
+   <Mylogin></Mylogin>
    <Comment1></Comment1>
    <Myfooter1></Myfooter1>
    </>
